@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>월하 프로그래밍 @ WLHA24</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 네비게이션 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>월하 : 月下</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">홈</a></li>
+                <li><a href="#services">서비스</a></li>
+                <li><a href="#portfolio">포트폴리오</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- 히어로 섹션 -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content-left">
+                <p class="hero-small-text">월하 코딩</p>
+                <h1 class="hero-main-title">프로그램 제작 문의</h1>
+                <p class="hero-subtitle">원하시는 기능, 예산을 함께 말해주시면 더욱 빠른 상담이 가능합니다.</p>
+                <div class="hero-buttons">
+                    <a href="https://t.me/WLHA24" target="_blank" class="btn btn-primary-gradient">문의하기</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-video-wrapper">
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="sec.mp4" type="video/mp4">
+            </video>
+        </div>
+        <a href="https://t.me/WLHACODING" target="_blank" class="hero-floating-card">
+            <div class="floating-card-content">
+                <img src="ande.png" alt="Ande" class="floating-card-image">
+            </div>
+        </a>
+        <div class="hero-floating-card hero-floating-card-2">
+            <div class="floating-card-content">
+            </div>
+        </div>
+        <div class="hero-floating-card hero-floating-card-3">
+            <div class="floating-card-content">
+            </div>
+        </div>
+        <div class="hero-grid"></div>
+    </section>
+
+    <!-- 서비스 섹션 -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title hero-brand-style">월하 : 月下 <span class="program-service-text">프로그램 제작 서비스</span></h2>
+            <p class="section-subtitle">고객의 요구사항에 맞춘 맞춤형 솔루션을 제공합니다</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3>웹 애플리케이션 개발</h3>
+                    <p>반응형 웹사이트부터 복잡한 웹 애플리케이션까지, 모든 웹 솔루션을 제공합니다.</p>
+                    <ul class="service-features">
+                        <li>프론트엔드 개발</li>
+                        <li>백엔드 API 개발</li>
+                        <li>데이터베이스 설계</li>
+                        <li>클라우드 배포</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>모바일 앱 개발</h3>
+                    <p>iOS와 Android 플랫폼을 지원하는 네이티브 및 크로스 플랫폼 앱을 개발합니다.</p>
+                    <ul class="service-features">
+                        <li>iOS 앱 개발</li>
+                        <li>Android 앱 개발</li>
+                        <li>크로스 플랫폼 솔루션</li>
+                        <li>앱 스토어 배포 지원</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💼</div>
+                    <h3>비즈니스 자동화 도구</h3>
+                    <p>반복적인 업무를 자동화하여 효율성을 높이는 맞춤형 도구를 제작합니다.</p>
+                    <ul class="service-features">
+                        <li>업무 자동화 스크립트</li>
+                        <li>데이터 처리 도구</li>
+                        <li>API 통합</li>
+                        <li>리포트 생성 시스템</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎮</div>
+                    <h3>게임 및 엔터테인먼트</h3>
+                    <p>독특한 게임이나 엔터테인먼트 소프트웨어를 제작합니다.</p>
+                    <ul class="service-features">
+                        <li>2D/3D 게임 개발</li>
+                        <li>인터랙티브 콘텐츠</li>
+                        <li>VR/AR 애플리케이션</li>
+                        <li>교육용 시뮬레이션</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🤖</div>
+                    <h3>AI/ML 솔루션</h3>
+                    <p>머신러닝과 인공지능을 활용한 스마트한 솔루션을 제공합니다.</p>
+                    <ul class="service-features">
+                        <li>데이터 분석 도구</li>
+                        <li>예측 모델 개발</li>
+                        <li>자연어 처리</li>
+                        <li>이미지 인식 시스템</li>
+                    </ul>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>유지보수 및 지원</h3>
+                    <p>제작된 프로그램의 지속적인 유지보수와 기술 지원을 제공합니다.</p>
+                    <ul class="service-features">
+                        <li>버그 수정</li>
+                        <li>기능 업데이트</li>
+                        <li>성능 최적화</li>
+                        <li>24/7 기술 지원</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 프로세스 섹션 -->
+    <section class="process">
+        <div class="container">
+            <h2 class="section-title">제작 프로세스</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>상담 및 기획</h3>
+                    <p>고객의 요구사항을 파악하고 프로젝트 범위를 정의합니다.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>견적 및 계약</h3>
+                    <p>상세한 견적서를 제공하고 계약을 체결합니다.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>설계 및 개발</h3>
+                    <p>시스템 설계 후 단계별 개발을 진행합니다.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>테스트 및 수정</h3>
+                    <p>철저한 테스트를 거쳐 피드백을 반영합니다.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <h3>배포 및 지원</h3>
+                    <p>최종 제품을 배포하고 지속적인 지원을 제공합니다.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 포트폴리오 섹션 -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">포트폴리오</h2>
+            <p class="section-subtitle">제작한 프로그램들을 소개합니다</p>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">💼</div>
+                    <h3>재고 관리 시스템</h3>
+                    <p>중소기업을 위한 통합 재고 관리 솔루션</p>
+                    <span class="portfolio-tag">웹 애플리케이션</span>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">📊</div>
+                    <h3>데이터 분석 대시보드</h3>
+                    <p>실시간 데이터 시각화 및 분석 도구</p>
+                    <span class="portfolio-tag">웹 애플리케이션</span>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">🎯</div>
+                    <h3>피트니스 트래킹 앱</h3>
+                    <p>운동 기록 및 목표 관리 모바일 앱</p>
+                    <span class="portfolio-tag">모바일 앱</span>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">🤖</div>
+                    <h3>채팅봇 시스템</h3>
+                    <p>AI 기반 고객 서비스 자동화 시스템</p>
+                    <span class="portfolio-tag">AI/ML</span>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">📝</div>
+                    <h3>문서 자동화 도구</h3>
+                    <p>반복적인 문서 작성 작업을 자동화하는 도구</p>
+                    <span class="portfolio-tag">자동화</span>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">🎨</div>
+                    <h3>디자인 협업 플랫폼</h3>
+                    <p>디자이너와 클라이언트를 연결하는 플랫폼</p>
+                    <span class="portfolio-tag">웹 애플리케이션</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>ProgramLab</h3>
+                    <p>고객의 아이디어를 현실로 만드는 소프트웨어 개발 전문 서비스</p>
+                </div>
+                <div class="footer-section">
+                    <h4>빠른 링크</h4>
+                    <ul>
+                        <li><a href="#home">홈</a></li>
+                        <li><a href="#services">서비스</a></li>
+                        <li><a href="#portfolio">포트폴리오</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>연락처</h4>
+                    <p>이메일: contact@programlab.com</p>
+                    <p>전화: 010-1234-5678</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 WLHA24. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
