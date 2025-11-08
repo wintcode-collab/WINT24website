@@ -1471,6 +1471,7 @@ section {
         0 0 20px rgba(255, 255, 255, 0.2);
     opacity: 0;
     transform: translateY(30px);
+    text-align: center;
 }
 
 .service-card:hover {
@@ -1483,6 +1484,14 @@ section {
 .service-icon {
     font-size: 3rem;
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-icon img {
+    display: block;
+    margin: 0 auto;
 }
 
 .service-card h3 {
@@ -1516,6 +1525,14 @@ section {
     text-shadow: 
         0 0 10px rgba(255, 255, 255, 0.5),
         0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.service-features li strong {
+    color: #ffffff;
+    font-weight: 900;
+    text-shadow: 
+        0 0 10px rgba(255, 255, 255, 0.8),
+        0 0 20px rgba(255, 255, 255, 0.5);
 }
 
 /* 프로세스 섹션 */
